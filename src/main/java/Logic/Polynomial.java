@@ -43,10 +43,8 @@ public class Polynomial {
 
                 degree = Integer.parseInt(degreeString);
             } else if (coefficientString != null) {
-
                 degree = 1;
             } else {
-
                 degree = 0;
             }
             if (!isFirstTerm) {
